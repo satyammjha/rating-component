@@ -15,7 +15,10 @@
   margin: 0;
   padding: 0;
 }
-
+.selected {
+  background-color: green;
+  color: white;
+}
 :root {
   --White: hsl(0, 0%, 100%);
   --LightGrey: hsl(217, 12%, 63%);
@@ -86,14 +89,16 @@ p {
   padding: 5px;
   border-radius: 50%;
   border: none;
-  background-color: hsl(216, 12%, 54%, 0.2);
   font-family: var(--font);
-  color: var(--LightGrey);
   font-size: 17px;
   font-weight: bold;
   cursor: pointer;
   margin-right: 20px;
   transition: 0.3s ease;
+}
+.defaultratingbg {
+  background-color: hsl(216, 12%, 54%, 0.2);
+  color: var(--LightGrey);
 }
 .ratingvalue:hover {
   background-color: var(--MediumGrey);
