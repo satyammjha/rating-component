@@ -16,7 +16,7 @@
   padding: 0;
 }
 .selected {
-  background-color: green;
+  background-color: hsl(25, 97%, 53%);
   color: white;
 }
 :root {
